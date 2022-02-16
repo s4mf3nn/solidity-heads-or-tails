@@ -1,0 +1,24 @@
+{
+  "name": "heads-or-tails",
+  "version": "1.0.0",
+  "description": "This is my first Solidity project.",
+  "scripts": {
+    "build": "hardhat compile",
+    "test:light": "hardhat test",
+    "test": "hardhat coverage",
+    "deploy:local": "hardhat run --network localhost scripts/deploy.js",
+    "local-testnet": "hardhat node"
+  },
+  "keywords": [],
+  "author": "Samir Fennikh",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "solidity-coverage": "^0.7.20"
+  }
+}
